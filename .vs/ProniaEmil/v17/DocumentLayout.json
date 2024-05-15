@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\proniaemil\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\proniaemil\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\viewmodels\\products\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\proniaemil\\viewmodels\\products\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\viewmodels\\products\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 316,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,8 +42,7 @@
               "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Controllers\\SliderController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAA7wCUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T22:00:31.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T22:00:31.019Z"
             },
             {
               "$type": "Document",
@@ -51,8 +54,7 @@
               "RelativeToolTip": "ProniaEmil\\ViewModels\\Products\\CreateProductVM.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwBEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:50:50.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T21:50:50.952Z"
             },
             {
               "$type": "Document",
@@ -62,7 +64,7 @@
               "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwBoAAAAQAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T19:29:30.451Z",
               "EditorCaption": ""
@@ -75,14 +77,10 @@
               "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA2AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-13T18:58:40.862Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
