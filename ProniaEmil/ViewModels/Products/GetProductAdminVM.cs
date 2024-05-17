@@ -15,5 +15,7 @@ namespace ProniaEmil.ViewModels.Products
 
         public float Raiting { get; set; }
 
+        public DateTime CreatedTime { get; set; }
+
     }
 }

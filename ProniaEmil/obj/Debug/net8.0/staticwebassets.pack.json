@@ -3405,8 +3405,28 @@
       "PackagePath": "staticwebassets\\imgs\\products\\0zqbyd20.kay.jpeg"
     },
     {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\15mspsoq.tis.jpg",
+      "PackagePath": "staticwebassets\\imgs\\products\\15mspsoq.tis.jpg"
+    },
+    {
       "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\b51bd4ql.0gp.jpg",
       "PackagePath": "staticwebassets\\imgs\\products\\b51bd4ql.0gp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\cxio043n.1ef.png",
+      "PackagePath": "staticwebassets\\imgs\\products\\cxio043n.1ef.png"
+    },
+    {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\ddsls1xd.kez.png",
+      "PackagePath": "staticwebassets\\imgs\\products\\ddsls1xd.kez.png"
+    },
+    {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\edpgwqau.3zq.jpg",
+      "PackagePath": "staticwebassets\\imgs\\products\\edpgwqau.3zq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\ldhw1r3w.m1c.png",
+      "PackagePath": "staticwebassets\\imgs\\products\\ldhw1r3w.m1c.png"
     },
     {
       "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\lz5ul4qi.3v5.png",
@@ -3415,6 +3435,10 @@
     {
       "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\rl5tt2kz.vhh.jpg",
       "PackagePath": "staticwebassets\\imgs\\products\\rl5tt2kz.vhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\z4oll3t5.zbs.png",
+      "PackagePath": "staticwebassets\\imgs\\products\\z4oll3t5.zbs.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProniaEmil.Microsoft.AspNetCore.StaticWebAssets.props",

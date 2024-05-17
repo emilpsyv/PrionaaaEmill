@@ -16,7 +16,25 @@ namespace ProniaEmil.DataAccesLayer
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
 
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            foreach (var entry in ChangeTracker.Entries())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        ((BaseEntity)entry.Entity).CreatedTime = DateTime.Now;
+                        ((BaseEntity)entry.Entity).IsDeleted = false;
+                        break;
 
+
+                }
+
+
+            };
+
+            return base.SaveChangesAsync(cancellationToken);
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {

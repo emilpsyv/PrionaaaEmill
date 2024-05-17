@@ -21,7 +21,7 @@ namespace ProniaEmil.Models
         public float Raiting { get; set; }
         public ICollection<ProductImage>? Images { get; set;}
 
-        public ICollection<ProductCategory>? ProductCategories { get;}
+        public ICollection<ProductCategory>? ProductCategories { get; set; }
         
     }
 }

@@ -21,7 +21,9 @@ namespace ProniaEmil.ViewModels.Products
 
         [Required]
         public IEnumerable<IFormFile> ImageFiles { get; set; }
-        [Required]
+        [Range(0,10,ErrorMessage ="raiting range 0 to 10"),Required]
         public float Raiting { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

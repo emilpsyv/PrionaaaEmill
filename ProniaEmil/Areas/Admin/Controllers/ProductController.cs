@@ -23,7 +23,9 @@ namespace ProniaEmil.Areas.Admin.Controllers
                 Name = s.Name,
                 ImgUrl = s.ImgUrl,
                 Raiting= s.Raiting,
-                StockCount= s.StockCount
+                StockCount= s.StockCount,
+                CreatedTime= s.CreatedTime
+                
                 
 
             }).ToListAsync();
@@ -80,7 +82,13 @@ namespace ProniaEmil.Areas.Admin.Controllers
              Raiting = data.Raiting,
              StockCount = data.StockCount,
              CreatedTime = DateTime.Now,
-             Images = new List<ProductImage>()
+             Images = new List<ProductImage>(),
+             ProductCategories = data.CategoryIDs.Select(x=>new
+             ProductCategory
+             {
+                 Category = x
+             }).ToList()
+
          };
             foreach (var img in data.ImageFiles)
             {
