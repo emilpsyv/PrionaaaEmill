@@ -1,13 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using ProniaEmil.Models;
 using ProniaEmil.ViewModels.Categories;
 
 namespace ProniaEmil.DataAccesLayer
 {
-    public class ProniaEContext : DbContext
+    public class ProniaEContext : IdentityDbContext
     {
-        public ProniaEContext(DbContextOptions options) : base(options)
+        public ProniaEContext(DbContextOptions<ProniaEContext> options) : base(options)
         {
         }
         public DbSet <Category> Categories { get; set; }
@@ -16,31 +17,38 @@ namespace ProniaEmil.DataAccesLayer
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
 
+        public DbSet <AppUser> AppUsers { get; set; }
+
+      
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             foreach (var entry in ChangeTracker.Entries())
             {
-                switch (entry.State)
+                if (entry.Entity is BaseEntity entity)
                 {
-                    case EntityState.Added:
-                        ((BaseEntity)entry.Entity).CreatedTime = DateTime.Now;
-                        ((BaseEntity)entry.Entity).IsDeleted = false;
-                        break;
+                    switch (entry.State)
+                    {
+                        case EntityState.Added:
+                            entity.CreatedTime = DateTime.Now;
+                          entity.IsDeleted = false;
+                            break;
+                            //case EntityState.Modified:
+                            //entity.UpdatedTime= DateTime.Now;
+                            //break
 
 
+                    }
                 }
-
 
             };
 
             return base.SaveChangesAsync(cancellationToken);
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            options.UseSqlServer("Server=DESKTOP-742DB1G;Database=EMILPRONIA;Trusted_Connection=True;TrustServerCertificate=True;");
-            base.OnConfiguring(options);
-        }
-        public DbSet<ProniaEmil.ViewModels.Categories.GetCategoryVM> GetCategoryVM { get; set; } = default!;
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //{
+        //    options.UseSqlServer("Server=DESKTOP-742DB1G;Database=EMILPRONIA;Trusted_Connection=True;TrustServerCertificate=True;");
+        //    base.OnConfiguring(options);
+        //}
     }
 }

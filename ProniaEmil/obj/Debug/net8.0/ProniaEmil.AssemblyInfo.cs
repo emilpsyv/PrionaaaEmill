@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProniaEmil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42374a8ac4a1c1562ef32fa4386e51e9655e0a5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+542aa394e45f252c5c059fa8a14865aa4ff72544")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProniaEmil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProniaEmil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,6 +7,7 @@
     <title>Modernize Free</title>
     <link rel="shortcut icon" type="image/png" href="~/admin/assets/images/logos/favicon.png" />
     <link rel="stylesheet" href="~/admin/assets/css/styles.min.css" />
+    @await RenderSectionAsync("styles", false)
 </head>
 
 <body>
@@ -133,6 +134,7 @@
     <script src="~/admin/assets/js/sidebarmenu.js"></script>
     <script src="~/admin/assets/js/app.min.js"></script>
     <script src="~/admin/assets/libs/simplebar/dist/simplebar.js"></script>
+    @await RenderSectionAsync("scripts", false)
 </body>
 
 </html>

@@ -12,7 +12,7 @@ namespace ProniaEmil.ViewModels.Sliders
         
         public string SubTitle { get; set; }
 
-        
+        public bool IsDeleted { get; set; }
         public int Discount { get; set; }
 
         public string ImgUrl { get; set; }

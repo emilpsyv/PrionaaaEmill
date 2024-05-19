@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1erD4aBZvenlDF8Uhv3BDeSgXrDMTDf5fJfaY/62y6E=",
+  "Hash": "5A1gKlvFfAbOLPlBJXjRilc0jlgUFS9DRllHP9D1m2c=",
   "Source": "ProniaEmil",
   "BasePath": "_content/ProniaEmil",
   "Mode": "Default",
@@ -16281,6 +16281,25 @@
       "OriginalItemSpec": "wwwroot\\imgs\\products\\edpgwqau.3zq.jpg"
     },
     {
+      "Identity": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\fslqavsg.mla.jpeg",
+      "SourceId": "ProniaEmil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\",
+      "BasePath": "_content/ProniaEmil",
+      "RelativePath": "imgs/products/fslqavsg.mla.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\fslqavsg.mla.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\ldhw1r3w.m1c.png",
       "SourceId": "ProniaEmil",
       "SourceType": "Discovered",
@@ -16336,6 +16355,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\products\\rl5tt2kz.vhh.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\yquqel1v.fqk.jpeg",
+      "SourceId": "ProniaEmil",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\",
+      "BasePath": "_content/ProniaEmil",
+      "RelativePath": "imgs/products/yquqel1v.fqk.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\yquqel1v.fqk.jpeg"
     },
     {
       "Identity": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\wwwroot\\imgs\\products\\z4oll3t5.zbs.png",

@@ -38,6 +38,9 @@
                     <h6 class="fw-semibold mb-0">Raiting</h6>
                 </th>
                 <th class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">Product category</h6>
+                </th>
+                <th class="border-bottom-0">
                     <h6 class="fw-semibold mb-0">Created time</h6>
                 </th>
                 <th class="border-bottom-0">
@@ -74,8 +77,12 @@
                         @datas.Raiting
                     </td>
                     <td class="border-bottom-0">
+                        @datas.ProductCat
+                    </td>
+                    <td class="border-bottom-0">
                         @datas.CreatedTime
                     </td>
+
                     <th class="border-bottom-0">
                         <a asp-action="Update" asp-route-id="@datas.Id" class=" btn btn-warning">Edit</a>
                         <a asp-action="DeleteSlider" asp-route-id="@datas.Id" class=" btn btn-warning">Delete</a>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaEmil.DataAccesLayer;
 using ProniaEmil.Extentions;
@@ -10,6 +11,7 @@ using System.Text;
 namespace ProniaEmil.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    //[Authorize(Roles ="Admin")]
     public class ProductController(ProniaEContext _context,IWebHostEnvironment _env) : Controller
     {
         public async Task< IActionResult> Index()
@@ -24,9 +26,10 @@ namespace ProniaEmil.Areas.Admin.Controllers
                 ImgUrl = s.ImgUrl,
                 Raiting= s.Raiting,
                 StockCount= s.StockCount,
-                CreatedTime= s.CreatedTime
-                
-                
+                CreatedTime= s.CreatedTime,
+                ProductCat =s.ProductCategories.Select(pc=>pc.Category.Name).Bind(',')
+
+
 
             }).ToListAsync();
             return View(data);

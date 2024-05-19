@@ -11,12 +11,12 @@ namespace ProniaEmil.Areas.Admin.Controllers
     {
         public async Task< IActionResult> Index()
         {
-            var data = await _context.Sliders.Where(x=>!x.IsDeleted).Select(s => new GetSliderVM
+            var data = await _context.Sliders.Where(x=>!x.IsDeleted).Select(s => new GetSlidersAdminVM
             {
                 Discount = s.Discount,
                 Id = s.Id,
                 ImgUrl = s.ImgUrl,
-              
+                IsDeleted = s.IsDeleted,
                 SubTitle = s.SubTitle,
                 Title = s.Title
             }).ToListAsync();
@@ -90,7 +90,15 @@ namespace ProniaEmil.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
-
+    
+    public async Task<IActionResult> ChangeVisiblity(int id)
+    {
+        var data = await _context.Sliders.FindAsync(id);
+        if (data == null) return NotFound("Məlumat tapılmadı");
+        data.IsDeleted = !data.IsDeleted;
+        await _context.SaveChangesAsync();
+        return Ok(data);
     }
+
+}
 }

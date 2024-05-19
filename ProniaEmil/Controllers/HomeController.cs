@@ -10,8 +10,8 @@ namespace ProniaEmil.Controllers
 {
     public class HomeController(ProniaEContext _context) : Controller
     {
-        
 
+      
         public async Task <IActionResult> Index()
         {
             List<Slider> sliders = await _context.Sliders.ToListAsync();
